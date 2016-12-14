@@ -1,0 +1,6 @@
+c:\users\bogdank\documents\visual studio 2015\Projects\NICE_Training\Lesson10\Homework10\Homework10\bin\Debug\Homework10.exe.config
+c:\users\bogdank\documents\visual studio 2015\Projects\NICE_Training\Lesson10\Homework10\Homework10\obj\Debug\Homework10.csprojResolveAssemblyReference.cache
+c:\users\bogdank\documents\visual studio 2015\Projects\NICE_Training\Lesson10\Homework10\Homework10\bin\Debug\Homework10.exe
+c:\users\bogdank\documents\visual studio 2015\Projects\NICE_Training\Lesson10\Homework10\Homework10\bin\Debug\Homework10.pdb
+c:\users\bogdank\documents\visual studio 2015\Projects\NICE_Training\Lesson10\Homework10\Homework10\obj\Debug\Homework10.exe
+c:\users\bogdank\documents\visual studio 2015\Projects\NICE_Training\Lesson10\Homework10\Homework10\obj\Debug\Homework10.pdb
