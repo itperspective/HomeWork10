@@ -82,7 +82,7 @@ namespace Homework10
         public T Get(int index)
         {
 
-            Console.WriteLine("Get from DynamicStack:");
+            Console.WriteLine("Get from DynamicArray:");
             return array[index];
 
 
