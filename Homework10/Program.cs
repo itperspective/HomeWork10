@@ -33,13 +33,14 @@ namespace Homework10
                 if (inputArray == 1)
                 {
 
+
                     int input = 7;
                     int index;
                     int add;
-                    while (input != 0)
+                    while (input != 8)
                     {
                         Console.WriteLine("--------------------------------------------What do you want to do with your array:");
-                        Console.WriteLine("------------------------------------------  [1] -Add, [2] - Insert, [3] - Get, [4] - Remove, [0] - Exit");
+                        Console.WriteLine("------------------------------------------  [1] -Add, [2] - Insert, [3] - Get, [4] - Remove, [8] - Exit");
 
 
                         while (!Int32.TryParse(Console.ReadLine(), out input))
@@ -103,22 +104,25 @@ namespace Homework10
                             input = 7;
                         }
 
-                        else if (input == 0)
+                        else if (input == 8)
                         {
                             Console.WriteLine("Thanks for trying Array!!!");
-                            
+
+                            inputArray = input;
+
+
                         }
                     }
                 }
                 else if (inputArray == 2)
 
                 {
-                    int input = 7;
+                    int input =7 ;
                     int add;
-                    while (input != 5)
+                    while (input != 8)
                     {
                         Console.WriteLine("\n --------------------------What do you want to do with your Stack:");
-                        Console.WriteLine("-----------------------------[1] -push, [2] - peek, [3] - pop, [5] - Exit");
+                        Console.WriteLine("-----------------------------[1] -push, [2] - peek, [3] - pop, [8] - Exit");
 
 
                         while (!Int32.TryParse(Console.ReadLine(), out input))
@@ -154,9 +158,11 @@ namespace Homework10
                             input = 7;
                         }
 
-                        else if (input == 5)
+                        else if (input == 8)
                         {
                             Console.WriteLine("Thanks for trying Stack!!!");
+                            inputArray = input;
+                            
                             
                         }
                     }
@@ -166,7 +172,7 @@ namespace Homework10
 
 
 
-
+                
 
                 //Delay
                 Console.ReadLine();
