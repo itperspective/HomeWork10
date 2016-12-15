@@ -61,9 +61,15 @@ namespace HomeWork10_refactor
 
         public T Get(int index)
         {
-
-            Console.WriteLine("Get :");
-            return array[index];
+            if (IsEmpty())
+            {
+                return default(T);
+            }
+            else
+            {
+                Console.WriteLine("Get :");
+                return array[index];
+            }
 
 
         }

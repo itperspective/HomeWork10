@@ -16,13 +16,13 @@ namespace HomeWork10_refactor
         public T Peek()
         {
 
-            return dynamicArray.Get(dynamicArray.top - 1);
+            return dynamicArray.Get(dynamicArray.Top - 1);
         }
 
         public T Pop()
         {
-            T a = dynamicArray.Get(dynamicArray.top-1);
-            dynamicArray.Remove(dynamicArray.top - 1);
+            T a = dynamicArray.Get(dynamicArray.Top-1);
+            dynamicArray.Remove(dynamicArray.Top - 1);
             return a;
          }
 

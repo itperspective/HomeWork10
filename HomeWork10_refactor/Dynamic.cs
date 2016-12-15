@@ -9,12 +9,24 @@ namespace HomeWork10_refactor
     abstract class Dynamic<T>
     {
         protected T[] array;
-        public int top;
+        protected int top;
         protected int count;
         protected int head;
         protected int tail;
         protected int capacity = 2;
         protected int size;
+
+        public int Top 
+            {
+            get
+            {
+                return top;
+            }
+            set
+            {
+                value = top;
+            }
+            }
 
         public Dynamic()
         {
