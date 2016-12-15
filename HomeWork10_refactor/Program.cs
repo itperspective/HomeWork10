@@ -21,6 +21,7 @@ namespace HomeWork10_refactor
             
             DynamicArray<int> dynArray = new DynamicArray<int>();
             Stack<int> stack = new Stack<int>();
+            Queue<int> queue = new Queue<int>();
 
             int input = 7;
             int index;
@@ -95,8 +96,54 @@ namespace HomeWork10_refactor
                 //*********************************************************************DynamicArray************/////////////////////
 
                 //*********************************************************************Stack******************/////////////////////
-                Console.WriteLine("\n --------------------------What do you want to do with your Stack:");
-                Console.WriteLine("-----------------------------[1] -push, [2] - peek, [3] - pop, [8] - Exit");
+                //Console.WriteLine("\n --------------------------What do you want to do with your Stack:");
+                //Console.WriteLine("-----------------------------[1] -push, [2] - peek, [3] - pop, [8] - Exit");
+
+
+                //while (!Int32.TryParse(Console.ReadLine(), out input))
+                //{
+                //    Console.WriteLine("Please enter int");
+                //}
+
+                //if (input == 1)
+                //{
+                //    Console.WriteLine("Enter: value to push");
+                //    while (!Int32.TryParse(Console.ReadLine(), out add))
+                //    {
+                //        Console.WriteLine("Please enter int");
+                //    }
+
+                //    stack.Push(add);
+                //    stack.Print();
+                //    input = 7;
+                //}
+
+                //else if (input == 2)
+                //{
+                //    Console.WriteLine(stack.Peek());
+                //    stack.Print();
+                //    input = 7;
+                //}
+
+                //else if (input == 3)
+                //{
+
+                //    stack.Pop();
+                //    stack.Print();
+                //    input = 7;
+                //}
+
+                //else if (input == 8)
+                //{
+                //    Console.WriteLine("Thanks for trying !!!");
+
+
+                //}
+                //*********************************************Stack***********///////
+
+                //**********************************QUEUE**********////////////////
+                Console.WriteLine("\n --------------------------What do you want to do with your Queue:");
+                Console.WriteLine("-----------------------------[1] -enqueue, [2] - dequeue, [8] - Exit");
 
 
                 while (!Int32.TryParse(Console.ReadLine(), out input))
@@ -112,31 +159,25 @@ namespace HomeWork10_refactor
                         Console.WriteLine("Please enter int");
                     }
 
-                    stack.Push(add);
-                    stack.Print();
+                    queue.Enqueue(add);
+                    queue.Print();
                     input = 7;
                 }
 
                 else if (input == 2)
                 {
-                    Console.WriteLine(stack.Peek());
-                    stack.Print();
+                    
+                    queue.Dequeue();
+                    queue.Print();
                     input = 7;
                 }
 
-                else if (input == 3)
-                {
-
-                    stack.Pop();
-                    stack.Print();
-                    input = 7;
-                }
-
+                
                 else if (input == 8)
                 {
                     Console.WriteLine("Thanks for trying !!!");
 
-                    
+
                 }
             }
         

@@ -4,3 +4,9 @@ C:\Users\bogdank\Documents\Visual Studio 2015\Projects\NICE_training\Lesson10\Ho
 C:\Users\bogdank\Documents\Visual Studio 2015\Projects\NICE_training\Lesson10\HomeWork10_refactor\HomeWork10_refactor\obj\Debug\HomeWork10_refactor.csprojResolveAssemblyReference.cache
 C:\Users\bogdank\Documents\Visual Studio 2015\Projects\NICE_training\Lesson10\HomeWork10_refactor\HomeWork10_refactor\obj\Debug\HomeWork10_refactor.exe
 C:\Users\bogdank\Documents\Visual Studio 2015\Projects\NICE_training\Lesson10\HomeWork10_refactor\HomeWork10_refactor\obj\Debug\HomeWork10_refactor.pdb
+c:\WORK\HomeWorks\HomeWork10\HomeWork10_refactor\bin\Debug\HomeWork10_refactor.exe.config
+c:\WORK\HomeWorks\HomeWork10\HomeWork10_refactor\obj\Debug\HomeWork10_refactor.exe
+c:\WORK\HomeWorks\HomeWork10\HomeWork10_refactor\obj\Debug\HomeWork10_refactor.pdb
+c:\WORK\HomeWorks\HomeWork10\HomeWork10_refactor\bin\Debug\HomeWork10_refactor.exe
+c:\WORK\HomeWorks\HomeWork10\HomeWork10_refactor\bin\Debug\HomeWork10_refactor.pdb
+c:\WORK\HomeWorks\HomeWork10\HomeWork10_refactor\obj\Debug\HomeWork10_refactor.csprojResolveAssemblyReference.cache
