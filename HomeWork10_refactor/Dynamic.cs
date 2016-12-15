@@ -9,21 +9,20 @@ namespace HomeWork10_refactor
     abstract class Dynamic<T>
     {
         protected T[] array;
-        protected int top;
+        public int top;
         protected int count;
         protected int head;
         protected int tail;
-        protected int capacity;
+        protected int capacity = 2;
         protected int size;
 
-        public Dynamic(T[] Array, int capacity)
+        public Dynamic()
         {
-            this.array = Array;
+            this.array = new T[capacity];
             this.top = 0;
             this.count = 0;
             this.head = 0;
             this.tail = 0;
-            this.capacity = capacity;
             this.size = capacity;
 
         }

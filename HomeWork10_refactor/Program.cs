@@ -10,17 +10,17 @@ namespace HomeWork10_refactor
     {
         static void Main(string[] args)
         {
-            int capacity;
-            Console.WriteLine("Please enter array capacity:");
-            while (!Int32.TryParse(Console.ReadLine(), out capacity))
-            {
-                Console.WriteLine("Please enter int");
-            }
-            int[] array = new int[capacity];
+            //int capacity;
+            //Console.WriteLine("Please enter array capacity:");
+            //while (!Int32.TryParse(Console.ReadLine(), out capacity))
+            //{
+            //    Console.WriteLine("Please enter int");
+            //}
+            //int[] array = new int[capacity];
 
             
-            DynamicArray<int> dynArray = new DynamicArray<int>(array, capacity);
-            Stack<int> stack = new Stack<int>(array, capacity);
+            DynamicArray<int> dynArray = new DynamicArray<int>();
+            Stack<int> stack = new Stack<int>();
 
             int input = 7;
             int index;
@@ -119,7 +119,7 @@ namespace HomeWork10_refactor
 
                 else if (input == 2)
                 {
-                    stack.Peek();
+                    Console.WriteLine(stack.Peek());
                     stack.Print();
                     input = 7;
                 }

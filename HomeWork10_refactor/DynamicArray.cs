@@ -8,9 +8,7 @@ namespace HomeWork10_refactor
 {
     class DynamicArray<T> : Dynamic <T>
     {
-        public DynamicArray(T[] Array, int capacity) : base(Array, capacity)
-        {
-        }
+
 
         protected bool IndexOutOfRange(int index)
         {
@@ -64,7 +62,7 @@ namespace HomeWork10_refactor
         public T Get(int index)
         {
 
-            Console.WriteLine("Get from DynamicArray:");
+            Console.WriteLine("Get :");
             return array[index];
 
 
