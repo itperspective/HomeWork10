@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework10
+namespace HomeWork10_refactor
 {
-    public abstract class DynamicArrayAbstract<T>
+    abstract class Dynamic<T>
     {
         protected T[] array;
         protected int top;
@@ -16,7 +16,7 @@ namespace Homework10
         protected int capacity;
         protected int size;
 
-        public DynamicArrayAbstract(T[] Array, int capacity)
+        public Dynamic(T[] Array, int capacity)
         {
             this.array = Array;
             this.top = 0;
@@ -27,9 +27,5 @@ namespace Homework10
             this.size = capacity;
 
         }
-
-
-        public abstract void Print();
-
     }
 }
