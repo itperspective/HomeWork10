@@ -22,6 +22,7 @@ namespace HomeWork10_refactor
             else { return false; }
             
         }
+
         protected bool IsEmpty()
         {
             if (top == 0)
@@ -146,6 +147,7 @@ namespace HomeWork10_refactor
             }
 
         }
+
         public void Print()
         {
             Console.WriteLine("Your stack looks like this now:");
