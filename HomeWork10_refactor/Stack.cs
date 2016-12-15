@@ -6,31 +6,37 @@ using System.Threading.Tasks;
 
 namespace HomeWork10_refactor
 {
-    class Stack<T> : DynamicArray<T>
+    class Stack<T> 
     {
 
+        DynamicArray<T> dynamicArray = new DynamicArray<T>();
+
+      
 
         public T Peek()
         {
 
-            return Get(top-1);
+            return dynamicArray.Get(dynamicArray.top - 1);
         }
 
         public T Pop()
         {
-            T a = Get(top-1);
-            Remove(top-1);
+            T a = dynamicArray.Get(dynamicArray.top-1);
+            dynamicArray.Remove(dynamicArray.top - 1);
             return a;
          }
 
         public void Push(T push)
         {
-            Add(push);
+            dynamicArray.Add(push);
         }
 
-    
+        public void Print()
+        {
+            dynamicArray.Print();
+        }
 
-        
+
 
     }
 }
